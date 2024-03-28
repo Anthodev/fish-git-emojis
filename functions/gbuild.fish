@@ -1,1 +1,1 @@
-function gbuild; _gc "👷" "build" $argv; end;
+function gbuild; _gc "🏗️" "build" $argv; end;
