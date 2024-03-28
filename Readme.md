@@ -2,12 +2,14 @@
 
 Shortcuts to commit with Gitmoji messages. Default emojis are inspired from [gitmoji](https://gitmoji.carloscuesta.me/), and messages follow [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/) and [Angular commit messages guidelines]([https://link](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines)).
 
+Fork from [Gazorby/fish-git-emojis](https://github.com/gazorby/fish-git-emojis)
+
 ## 🚀 Install
 
 Using [fisher](https://github.com/jorgebucaran/fisher) :
 
 ```console
-fisher add Gazorby/fish-git-emojis
+fisher install Anthodev/fish-git-emojis
 ```
 
 ## 🔧 Usage
@@ -24,9 +26,10 @@ options :
 
 | Command | Emoji |
 |-------- | ----------- |
-| gbuild  | 👷 build/chore |
+| gchore  | 👷 chore |
+| gbuild  | 🏗️ build |
 | gci     | 💚 Continuous integration |
-| gdocs    | 📝 Documentation |
+| gdocs   | 📝 Documentation |
 | gfix    | 🐛 Bugfix |
 | gfeat   | ✨ New feature |
 | gperf   | ⚡️ Improve performance |
@@ -59,4 +62,4 @@ options :
 
 ## 📝 License
 
-[MIT](https://github.com/Gazorby/fish-git-emojis/blob/master/LICENSE)
+[MIT](https://github.com/Anthodev/fish-git-emojis/blob/master/LICENSE)
